@@ -17,14 +17,14 @@ $upload_password = "MySuperSecretPassword";
 ## Set your web server protocol
 Default:
 ```
-$protocall = "https://"
+$protocol = "https://"
 ```
 Options:
 ```
-$protocall = "https://"
+$protocol = "https://"
 ```
 ```
-$protocall = "http://"
+$protocol = "http://"
 ```
 
 ## Use uniqid
