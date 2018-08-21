@@ -54,4 +54,4 @@ $use_uniqid = false;
 
 # In progress developments
 
-__Mobile optimisation__ <br>
+__Mobile optimisation (currently underway)__ <br>
