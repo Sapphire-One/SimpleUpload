@@ -26,12 +26,12 @@
           <div class="inner cover">
             <form action="upload.php" method="post" enctype="multipart/form-data">
                 Select image to upload:
-                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="file" class="form-control" name="fileToUpload" id="fileToUpload">
                 <br>
                 Enter your upload password:
-                <input type="password" name="upload-secret">
+                <input type="password" class="form-control" name="upload-secret">
                 <br>
-                <input type="submit" value="Upload Image" name="submit">
+                <input type="submit" class="btn btn-primary form-control" value="Upload Image" name="submit">
             </form>
             </div>
           <div class="mastfoot">
