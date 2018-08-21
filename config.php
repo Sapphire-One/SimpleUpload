@@ -8,4 +8,6 @@ $protocall = "https://";
 // Use uniqid, this should be either true or false and if enabled it automaticaly renames files to a unique name before upload
 // Example: image.jpeg will be saved as 5b7c1e39ca219.jpeg instead of image.jpeg
 $use_uniqid = true;
+// Disable error reporting
+error_reporting(0);
 ?>
