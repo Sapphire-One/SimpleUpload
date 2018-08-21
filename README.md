@@ -14,7 +14,7 @@ Example:
 $upload_password = "MySuperSecretPassword";
 ```
 
-## Set your web server protocal
+## Set your web server protocol
 Default:
 ```
 $protocall = "https://"
@@ -28,7 +28,7 @@ $protocall = "http://"
 ```
 
 ## Use uniqid
-### If you disable this option images wont be renamed when you upload however you may get a duplicate file error, leaving this option on is the recomended action as the script generates a "img(url)" for you and you wont need to retype a long image name.
+### If you disable this option images wont be renamed when you upload however you may get a duplicate file error, leaving this option on is the recommended action as the script generates a "img(url)" for you and you wont need to retype a long image name.
 Default:
 ```
 $use_uniqid = true;
