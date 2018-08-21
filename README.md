@@ -3,15 +3,28 @@ Simple PHP uploader used for Anilist Content
 
 # Config
 ## Set save directory for your uploads!
-
+Example:
 ```
 $target_dir = "/home/public_html/images/";
 ```
 
 ## Set your upload password to stop your upload system from being abused!
-
+Example:
 ```
 $upload_password = "MySuperSecretPassword";
+```
+
+## Set your web server protocal;
+Default:
+```
+$protocall = "https://"
+```
+Options:
+```
+$protocall = "https://"
+```
+```
+$protocall = "http://"
 ```
 
 # Purpose
