@@ -1,0 +1,13 @@
+{
+    "name": "martinhyland/simpleupload",
+    "description": "Simple image host for anilist",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Martin Hyland",
+            "email": "martin-hyland+Developer@warriewood.net.au"
+        }
+    ]
+}
