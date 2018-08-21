@@ -21,7 +21,7 @@ if (Authenticate($_POST["upload-secret"], $upload_password)) {
         if (AlreadyExsists($target_file)) {
             if (Acceptablefiletype($imageFileType)) {
                 if (upload($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                    header("Location: index.php?upload=true&protocall=". $protocall . "&uploadurl=" . $target_file);
+                    header("Location: index.php?upload=true&protocol=". $protocol . "&uploadurl=" . $target_file);
                     echo($target_file);
                 }
                 else{
