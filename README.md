@@ -27,6 +27,19 @@ $protocall = "https://"
 $protocall = "http://"
 ```
 
+## Use uniqid
+Default:
+```
+$use_uniqid = true;
+```
+Options:
+```
+$use_uniqid = true;
+```
+```
+$use_uniqid = false;
+```
+
 # Purpose
 
 I got tired of adding the "img(imgurl)" to every upload to imgur for anilist so I decided to write some HTML and PHP to uploasd to my website and give back a usable embed url for my public activity
