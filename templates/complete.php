@@ -38,7 +38,7 @@
             <div class="border-10">
               <form action="#" method="">
                 <div class="">
-                  <input type="text" readonly onfocus="this.select();" class="width-dynamic form-text text-muted text-center form-control" value="<?php echo("img(" . $_GET['protocall'] . $_SERVER['SERVER_NAME'] . str_replace($_SERVER['DOCUMENT_ROOT'], '', $_GET['uploadurl']) . ")")?>">
+                  <input type="text" onfocus="this.select();" class="width-dynamic form-text text-muted text-center form-control" value="<?php echo("img(" . $_GET['protocall'] . $_SERVER['SERVER_NAME'] . str_replace($_SERVER['DOCUMENT_ROOT'], '', $_GET['uploadurl']) . ")")?>">
                 </div>
                 <input type="submit" class="btn btn-primary" value="Upload another Image" name="submit">
               </form>
