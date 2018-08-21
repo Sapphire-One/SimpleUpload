@@ -50,7 +50,7 @@ I got tired of adding the "img(imgurl)" to every upload to imgur for anilist so 
 ![Before upload](https://onii-chan.moe/images/anilist/uploads/5b7c2f4650a2b.jpeg)
 
 ## After upload
-![Upload](https://onii-chan.moe/images/anilist/uploads/5b7c2eae30140.jpeg)
+![Upload](https://onii-chan.moe/images/anilist/uploads/5b7c519e387bd.jpeg)
 
 # In progress developments
 
