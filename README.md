@@ -43,7 +43,7 @@ $use_uniqid = false;
 
 # Purpose
 
-I got tired of adding the "img(imgurl)" to every upload to imgur for anilist so I decided to write some HTML and PHP to uploasd to my website and give back a usable embed url for my public activity
+### I got tired of adding the "img(imgurl)" to every upload to imgur for anilist so I decided to write some HTML and PHP to upload to my website and give back a usable embed url for my public activity
 
 # Screenshots
 ## Before upload
