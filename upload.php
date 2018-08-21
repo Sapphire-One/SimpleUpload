@@ -7,8 +7,14 @@ if (!isset($_POST['submit'])){
     die("Nice try!");
 }
 
-$target_file = $target_dir .uniqid() . "." .strtolower(pathinfo($_FILES["fileToUpload"]["name"],PATHINFO_EXTENSION));
-$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+if ($use_uniqid) {
+  $target_file = $target_dir .uniqid() . "." .strtolower(pathinfo($_FILES["fileToUpload"]["name"],PATHINFO_EXTENSION));
+  $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+}
+else {
+  $target_file = $target_dir .strtolower($_FILES["fileToUpload"]["name"]);
+  $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+}
 
 if (Authenticate($_POST["upload-secret"], $upload_password)) {
     if (ActualImage($_FILES["fileToUpload"]["tmp_name"])) {
