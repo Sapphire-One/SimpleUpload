@@ -4,7 +4,7 @@ require('config.php');
 require('lib/SimpleUpload.php');
 
 if (!isset($_POST['submit'])){
-    die("Nice try!");
+    die("No direct access");
 }
 
 if ($use_uniqid) {
@@ -25,19 +25,19 @@ if (Authenticate($_POST["upload-secret"], $upload_password)) {
                     echo($target_file);
                 }
                 else{
-                    echo("Failure!");
+                    die("Unknown Error");
                 }
             }
             else{
-                echo("File already exists");
+                die("File already exists");
             }
         }
         else{
-            echo("Not a real image");
+            die("That is not a real image");
         }
     }
     else{
-        echo("Authentication failure!");
+        die("Authentication failure!");
     }
 }
 
